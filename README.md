@@ -1,3 +1,12 @@
+
+# 本项目已 Archive 
+
+## 由于B站新规则导致一天只有 `30` 亲密度（见 [#255](https://github.com/XiaoMiku01/fansMedalHelper/issues/225)），本项目已经失去存在的意义，所以于 2025-9-15 Archive 。感谢四年多来的使用。
+
+
+
+
+
 <p align="center">
   <img src="https://s1.ax1x.com/2022/05/24/XPx1tx.png" width="200" height="200" alt="">
 </p>
