@@ -133,7 +133,7 @@ if __name__ == "__main__":
         from apscheduler.triggers.cron import CronTrigger
 
         log.info(f"使用内置定时器 {cron}，开启定时任务，等待时间到达后执行。")
-        schedulers = BlockingScheduler()
+        schedulers = BlockingScheduler(timezone="Asia/Shanghai")
         schedulers.add_job(run, CronTrigger.from_crontab(cron), misfire_grace_time=3600)
         schedulers.start()
     elif "--auto" in sys.argv:
